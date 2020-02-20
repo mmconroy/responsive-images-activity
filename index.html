@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Responsive Images: Activity</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <div class="photo">
+        <picture>
+          <source media="(min width: 401px)" srcset="./images/hero-large.jpg" />
+          <source media="(max width: 400px)" srcset="./images/hero-small.jpg" />
+          <img src="./images/hero-small.jpg" alt="Big Kitty" />
+        </picture>
+      </div>
+    </div>
+    <div class="profile">
+      <img src="./images/profile.png" alt="Catty McCatface" />
+      <h1>Catty McCatface</h1>
+    </div>
+    <div class="cat-container">
+      <img class="cat-1" src="./images/cat-1.jpg" alt="Cat 1" />
+      <img class="cat-2" src="./images/cat-2.jpg" alt="Cat 2" />
+      <img class="cat-3" src="./images/cat-3.jpg" alt="Cat 3" />
+    </div>
+  </body>
+</html>
